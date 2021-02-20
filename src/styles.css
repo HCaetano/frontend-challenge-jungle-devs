@@ -1,4 +1,12 @@
 /* General */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   display: flex;
   flex-flow: row wrap;
@@ -92,7 +100,6 @@ article h1, p, a {
 }
 
 /* Main */
-
 .available-nanny-display {
   align-items: center;
   border: 1px solid green;
@@ -136,5 +143,36 @@ article h1, p, a {
 
 /* Footer */
 footer {
-  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  height: 150px;
+}
+
+footer section {
+  height: 50px;
+}
+
+footer section:nth-of-type(2n+1) {
+  width: 20%;
+}
+
+footer section:nth-of-type(2) {
+  display: flex;
+  flex-flow: row;
+  width: 60%;
+}
+
+.social-media-logo {
+  height: 30px;
+}
+
+footer p {
+  text-align: center;
+  width: 100%;
+}
+
+.footer-logo {
+  height: fit-content;
+  margin: auto;
+  width: 50%;
 }
