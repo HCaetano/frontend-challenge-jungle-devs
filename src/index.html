@@ -29,21 +29,23 @@
     </nav>
     <section class="hero-content">
       <article>
-        <h1 class="article-content">Easily create or join a local nanny share with Hapu</h1>
-        <p class="article-content">
+        <h1>Easily create or join a local nanny share with Hapu</h1>
+        <p>
           Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable
           solutions in childcare.
         </p>
-        <a href="/" class="article-content">See Hapu in action (27 seconds)</a>
+        <a href="/">See Hapu in action (27 seconds)</a>
       </article>
       <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/banner_modal.png?raw=true"
         alt="Match of two nanny sharers">
     </section>
   </header>
   <main>
-    <section>
-      <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/sarah_profile.png?raw=true"
-        alt="Available nanny share">
+    <section class="available-nanny-display">
+      <div class="image-holder">
+        <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/sarah_profile.png?raw=true"
+          alt="Available nanny share">
+      </div>
       <p><span>Sarah's day care available now in North Sydney</span> Wednesday, Thursday, Friday - 7:30 - 5:30</p>
     </section>
     <section>
@@ -64,12 +66,12 @@
     </section>
     <section>
       <h1>Are you a parent without a nanny and looking to share?</h1>
-      <p>
-        Leave us your name and email and we'll update you as soon as a share becomes available in your area!
-      </p>
-      <input type="text" name="customer-name">
-      <input type="email" name="customer-email">
-      <button>Send</button>
+      <p>Leave us your name and email and we'll update you as soon as a share becomes available in your area!</p>
+      <section class="home-customer-register">
+        <input type="text" name="customer-name">
+        <input type="email" name="customer-email">
+        <button>Send</button>
+      </section>
     </section>
     <section>
       <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/shared_payments.png?raw=true"
@@ -85,28 +87,36 @@
       </article>
     </section>
     <section>
-      <h1>A framework built for the long term</h1>
-      <p>
-        Childcare is for the long term. And you need a framework you can count on that gives your share long term
-        viability and success. That's why we've defined Hapu around our three tribal principles: clearly defined
-        process, transparency over money and equility of participation.
-      </p>
-      <a href="/">Read how Hapu's tribal background defines our app</a>
-      <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/billing_history.png?raw=true"
-        alt="Billing history">
+      <article class="full-row-article">
+        <h1>A framework built for the long term</h1>
+        <p>
+          Childcare is for the long term. And you need a framework you can count on that gives your share long term
+          viability and success. That's why we've defined Hapu around our three tribal principles: clearly defined
+          process, transparency over money and equility of participation.
+        </p>
+        <a href="/">Read how Hapu's tribal background defines our app</a>
+      </article>
+      <div class="image-holder">
+        <img
+          src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/billing_history.png?raw=true"
+          alt="Billing history">
+      </div>
     </section>
-    <section>
+    <section class="column-content-container">
       <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/daily_diary.png?raw=true"
-        alt="Daily diary icon">
-      <h1>Coming soon: Nanny Share Daily Diary!</h1>
-      <p>
-        With the Hapu daily diary your nanny will be able to update you and your sharers with photos and commentary of
-        the day. You and the sharers will receive notifications and you'll be able to login to view the daily adventures
-        of your little ones. We can't wait!
-      </p>
+        alt="Daily diary icon" class="daily-diary-image">
+      <article class="full-row-article">
+        <h1>Coming soon: Nanny Share Daily Diary!</h1>
+        <p>
+          With the Hapu daily diary your nanny will be able to update you and your sharers with photos and commentary of
+          the day. You and the sharers will receive notifications and you'll be able to login to view the daily
+          adventures
+          of your little ones. We can't wait!
+        </p>
+      </article>
     </section>
-    <section>
-      <h1>Become a nny share host</h1>
+    <section class="column-content-container">
+      <h1>Become a nany share host</h1>
       <p>Takes less than 5 minutes to get started</p>
       <div>
         <img src="" alt="">
