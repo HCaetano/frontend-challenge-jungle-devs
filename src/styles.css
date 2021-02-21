@@ -67,8 +67,10 @@ section {
 /* Header */
 h1 {
   font-size: 40px;
-  line-height: 48px;
   font-weight: 500;
+  line-height: 48px;
+  height: fit-content;
+  margin-bottom: -150px;
 }
 
 header {
@@ -107,6 +109,7 @@ header p {
   line-height: 24px;
   font-size: 18px;
   font-weight: 400;
+  height: fit-content;
   margin: 0;
 }
 
@@ -149,10 +152,15 @@ header p {
 .hero-content a {
   align-items: center;
   display: flex;
+  margin-top: -150px;
 }
 
 .hero-content a p {
   margin-left: 10px;
+}
+
+.hero-content p {
+  margin: 10px 0;
 }
 
 .play-button {
@@ -336,7 +344,6 @@ footer section:nth-of-type(2n+1) {
 footer section:last-of-type a {
   border: 1px solid lightgray;
   border-radius: 50%;
-  /* background-color: blue; */
   padding: 8px;
   height: fit-content;
 }
