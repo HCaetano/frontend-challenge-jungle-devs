@@ -28,11 +28,22 @@ h1 {
   font-weight: 500;
 }
 
-img {
-  height: 300px;
+hr {
+  border: 1px solid #DFDFDF;
+  margin: 70px auto;
+  width: 40%;
 }
 
-main, footer {
+hr:first-of-type {
+  margin-top: 0;
+  width: 100%;
+}
+
+img {
+  height: 390px;
+}
+
+footer {
   margin: 0 auto;
   width: 70%;
 }
@@ -42,7 +53,6 @@ section {
   flex-flow: row wrap;
   justify-content: space-around;
   width: 100%;
-  /* border: 1px solid blue; */
 }
 
 .action-button {
@@ -67,7 +77,6 @@ section {
 
 /* Header */
 header {
-  box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
   height: 800px;
@@ -165,9 +174,17 @@ article {
 }
 
 /* Main */
+
+main a {
+  color: #5E20A4;
+}
+
+main section {
+  margin: auto;
+  width: 70%;
+}
+
 .available-nanny-display {
-  align-items: center;
-  border: 1px solid green;
   height: 100px;
   justify-content: center;
 }
