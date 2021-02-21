@@ -5,26 +5,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
   <link rel="stylesheet" href="styles.css">
   <title>Hapu</title>
 </head>
 
 <body>
-  <header>
+  <header class="header-background">
     <nav>
       <section class="top-level-content-block">
-        <a href="/">
-          <img class="hero-logo"
-            src="https://raw.githubusercontent.com/JungleDevs/frontend-challenge-001/master/resources/hapu_green_logo.png"
-            alt="Home">
-        </a>
-        <a href="/" class="top-level-page">Create Your Nanny Share</a>
-        <a href="/" class="top-level-page">Browse Shares</a>
-        <a href="/" class="top-level-page">Our Story</a>
+        <div>
+          <a href="/">
+            <img class="hero-logo"
+              src="https://raw.githubusercontent.com/JungleDevs/frontend-challenge-001/master/resources/hapu_green_logo.png"
+              alt="Home">
+          </a>
+        </div>
+        <a href="/">Create Your Nanny Share</a>
+        <a href="/">Browse Shares</a>
+        <a href="/">Our Story</a>
       </section>
       <section class="top-level-buttons-block">
-        <a href="/" class="top-level-button">Become a Nanny Share Host</a>
-        <a href="/" class="top-level-button">Sign In</a>
+        <a href="/" class="action-button">Become a Nanny Share Host</a>
+        <a href="/">Sign In</a>
       </section>
     </nav>
     <section class="hero-content">
@@ -34,10 +37,18 @@
           Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable
           solutions in childcare.
         </p>
-        <a href="/">See Hapu in action (27 seconds)</a>
+        <a href="/">
+          <img
+            src="https://raw.githubusercontent.com/JungleDevs/frontend-challenge-001/b8dd21d555ad231b5376c921ff06cd69e8b65522/resources/play_icon.svg"
+            alt="Play button" class="play-button">
+          <p>See Hapu in action (27 seconds)</p>
+        </a>
       </article>
-      <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/banner_modal.png?raw=true"
-        alt="Match of two nanny sharers">
+      <div class="app-sample-holder">
+        <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/banner_modal.png?raw=true"
+          alt="Match of two nanny sharers">
+      </div>
+
     </section>
   </header>
   <main>
@@ -50,7 +61,7 @@
     </section>
     <section>
       <article>
-        <h1>Share your home, nanny and costs</h1>
+        <h2>Share your home, nanny and costs</h2>
         <p>
           You have a fantastic home, a fantastic nanny and wouldn't cutting your costs in half be, well, fantastic?!
           If only it was easy to connect with other parents to share your costs? Well now it is, with Hapy!
@@ -65,19 +76,19 @@
         alt="Nanny share information and location">
     </section>
     <section>
-      <h1>Are you a parent without a nanny and looking to share?</h1>
+      <h2>Are you a parent without a nanny and looking to share?</h2>
       <p>Leave us your name and email and we'll update you as soon as a share becomes available in your area!</p>
       <section class="home-customer-register">
         <input type="text" name="customer-name">
         <input type="email" name="customer-email">
-        <button>Send</button>
+        <a class="action-button">Send</a>
       </section>
     </section>
     <section>
       <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/shared_payments.png?raw=true"
         alt="Shared payments section">
       <article>
-        <h1>Shared payments made simple</h1>
+        <h2>Shared payments made simple</h2>
         <p>
           Sometimes it's hard enough just sharing a restaurant bill. Try sharing that bill week in, week out and you
           might encounter more than a few snares. But not with Hapu. Simply set your rates and our automated payment
@@ -88,7 +99,7 @@
     </section>
     <section>
       <article class="full-row-article">
-        <h1>A framework built for the long term</h1>
+        <h2>A framework built for the long term</h2>
         <p>
           Childcare is for the long term. And you need a framework you can count on that gives your share long term
           viability and success. That's why we've defined Hapu around our three tribal principles: clearly defined
@@ -106,7 +117,7 @@
       <img src="https://github.com/JungleDevs/frontend-challenge-001/blob/master/resources/daily_diary.png?raw=true"
         alt="Daily diary icon" class="daily-diary-image">
       <article class="full-row-article">
-        <h1>Coming soon: Nanny Share Daily Diary!</h1>
+        <h2>Coming soon: Nanny Share Daily Diary!</h2>
         <p>
           With the Hapu daily diary your nanny will be able to update you and your sharers with photos and commentary of
           the day. You and the sharers will receive notifications and you'll be able to login to view the daily
@@ -116,7 +127,7 @@
       </article>
     </section>
     <section class="column-content-container">
-      <h1>Become a nany share host</h1>
+      <h2>Become a nany share host</h2>
       <p>Takes less than 5 minutes to get started</p>
       <div>
         <img src="" alt="">
