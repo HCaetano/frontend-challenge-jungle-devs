@@ -230,6 +230,38 @@ main section {
   margin: auto 10px;
 }
 
+.become-a-nanny-button {
+  background-color: #5E20A4;
+  border-radius: 4%;
+  color: white;
+  display: flex;
+  flex-flow: row;
+  height: 70px;
+  padding: 10px;
+  text-decoration: none;
+  width: 300px;
+}
+
+.become-a-nanny-announcement {
+  width: 100%;
+}
+
+.become-a-nanny-button {
+  margin: 30px auto;
+}
+
+.become-a-nanny-button .image-holder {
+  margin: auto;
+}
+
+.become-a-nanny-button p:last-of-type {
+  font-size: 12px;
+}
+
+.calendar-icon {
+  height: 30px;
+}
+
 .column-content-container {
   flex-flow: column;
   align-items: center;
