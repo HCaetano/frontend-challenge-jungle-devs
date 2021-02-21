@@ -244,6 +244,22 @@ main section {
   width: 65%;
 }
 
+.full-row-article a {
+  margin: auto;
+}
+
+.full-row-article h2 {
+  margin: auto;
+}
+
+.full-row-image {
+  margin: 30px auto;
+}
+
+.full-row-article p {
+  margin: 30px auto;
+}
+
 .home-customer-register {
   display: flex;
   flex-flow: row wrap;
