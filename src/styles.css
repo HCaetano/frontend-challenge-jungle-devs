@@ -455,5 +455,57 @@ footer section:last-of-type a {
   } 
 
   /* Main */
+  main {
+    display: grid;
+    grid-template-areas:
+    "section"
+    "hr"
+    "section"
+    "hr"
+    "section"
+    "hr"
+    "section"
+    "hr"
+    "section"
+    "hr"
+    "section"
+    "hr"
+    "section";
+    grid-template-columns: 375px;
+    grid-template-rows: 3.5% 1% 2.5% 1% 2.5% 1% 2.5% 1% 2.5% 1% 2.5% 1% 2.5%;
+
+  }
+  
+  main section {
+    width: 100%;
+  }
+
+  .available-nanny-display {
+    height: 100%;
+  }
+
+  .available-nanny-display a {
+    height: 45px;
+    margin: 0;
+    width: 60%;
+  }
+
+  .available-nanny-display img, p {
+    height: auto;
+    margin: 0;
+  }
+
+  .available-nanny-display .image-holder {
+    height: 30%;
+    margin-top: 20px;
+  }
+
+  .image-holder {
+    display: block;
+  }
+
+  .image-holder img {
+    height: 100%;
+  }
 }
 
