@@ -384,11 +384,6 @@ footer section:last-of-type a {
 }
 
 /* Responsiveness */
-
-
-/* Grid */
-
-
 @media only screen and (max-width: 376px) {
   /* General */
   .mobile-hidden {
@@ -397,16 +392,6 @@ footer section:last-of-type a {
 
   body {
     text-align: center;
-    color: red;
-
-    height: fit-content;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 25% 80% 5%;
-    grid-template-areas:
-      "header"
-      "main"
-      "footer";
   }
 
   body, header, main, footer {
@@ -418,22 +403,52 @@ footer section:last-of-type a {
     font-size: 28px;
     line-height: 32px;
     margin: 0 auto;
+    width: 80%;
   }
   
   header {
-    padding: 0;
+    display: grid;
+    grid-template-rows: 30% 60%;
+    height: 450px;
   }
 
   .action-button {
     height: 40px;
   }
 
+  .hero-content {
+    height: 300px;
+    width: 100%;
+  }
+
+  .hero-content a {
+    margin: 0 auto; 
+  }
+  
+  .hero-content article {
+    height: 100%;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .hero-content article, .hero-content .app-sample-holder {
+    margin: auto;
+  }
+
   .hero-content p {
     font-size: 16px;
     line-height: 28px;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
   }
   
+  .hero-logo {
+    height: 70px;
+  }
+
+  .top-level-content-block {
+    height: 100%;
+  }
+
   .top-level-buttons-block {
     margin: 0;
     width: 100%;
