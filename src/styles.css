@@ -384,7 +384,7 @@ footer section:last-of-type a {
 }
 
 /* Responsiveness */
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
   /* General */
   .mobile-hidden {
     display: none;
@@ -410,6 +410,10 @@ footer section:last-of-type a {
     display: grid;
     grid-template-rows: 30% 60%;
     height: 450px;
+  }
+
+  hr {
+    width: 90%;
   }
 
   .action-button {
