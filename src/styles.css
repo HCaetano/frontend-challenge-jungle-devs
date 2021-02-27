@@ -203,7 +203,7 @@ h3 {
 }
 
 hr {
-  border: 1px solid #DFDFDF;
+  border: 2px solid #DFDFDF;
   margin: 70px auto;
   width: 40%;
 }
@@ -416,6 +416,10 @@ footer section:last-of-type a {
     width: 90%;
   }
 
+  hr:first-of-type {
+    margin-top: 20px;
+  }
+
   .action-button {
     height: 40px;
   }
@@ -466,6 +470,10 @@ footer section:last-of-type a {
     margin: auto;
   }
 
+  h3 {
+    width: 90%;
+  }
+
   article a {
     margin: 10px auto;
   }
@@ -495,7 +503,7 @@ footer section:last-of-type a {
     "hr"
     "section";
     grid-template-columns: 375px;
-    grid-template-rows: 3.5% 1% 14.5% 1% 9.5% 1% 9.5% 1% 9.5% 1% 9.5% 1% 9.5%;
+    grid-template-rows: 3.5% 2% 14.5% 2% 7.5% 3% 12.0% 2% 9.5% 1% 9.5% 1% 9.5%;
 
   }
   
@@ -517,6 +525,16 @@ footer section:last-of-type a {
 
   main section img {
     width: fit-content;
+  }
+
+  .home-customer-register input, a {
+    margin: 5px auto;
+    width: 90%;
+  }
+
+  main p {
+    margin: 10px auto;
+    width: 90%;
   }
 
   img {
@@ -558,5 +576,7 @@ footer section:last-of-type a {
   .share-everything-header {
     width: 60%;
   }
+
+
 }
 
