@@ -174,6 +174,7 @@ header p {
 article {
   display: flex;
   flex-flow: row wrap;
+  margin: 60px auto;
   padding: 10px;
   width: 40%;
 }
@@ -297,16 +298,23 @@ main section {
   margin: 30px auto;
 }
 
-.home-customer-register {
+.customer-register article {
+  margin: 30px auto 0 auto;
+}
+
+.customer-register > section {
   display: flex;
   flex-flow: row wrap;
   height: 130px;
   justify-content: center;
 }
 
-.home-customer-register input, a {
-  height: 40%;
-  margin: auto 10px;
+.customer-register input {
+  height: 30px;
+}
+
+.customer-register input, a {
+  margin: auto 12px;
 }
 
 .in-text-link {
@@ -460,15 +468,8 @@ footer section:last-of-type a {
   } 
 
   /* Article */
-  h2 {
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 32px;
-    margin: auto;
-  }
-
-  h3 {
-    width: 90%;
+  article {
+    margin: 30px auto;
   }
 
   article a {
@@ -482,25 +483,29 @@ footer section:last-of-type a {
     width: 95%;
   }
 
+  h2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: auto;
+  }
+
+  h3 {
+    width: 90%;
+  }
+
   /* Main */
   main {
     display: grid;
     grid-template-areas: "section" "section" "section" "section" "section" "section" "section";
     grid-template-columns: 375px;
-    /* grid-template-rows: 3.5% 2% 16.5% 3% 7.5% 3% 14% 3% 9.5% 3% 11% 2% 8%; */
     grid-template-rows: 0.4fr 1fr 0.6fr 0.7fr 0.6fr 0.7fr 0.4fr;
-    /* grid-auto-rows: minmax(200px, auto); */
     grid-gap: 10px;
   }
   
   main section {
     border-bottom: 2px solid #DFDFDF;
-    /* padding-bottom: 30px; */
     width: 100%;
-  }
-
-  main section article {
-    order: 2;
   }
 
   main section img {
@@ -571,13 +576,12 @@ footer section:last-of-type a {
     line-height: 28px;
   }
 
-  .home-customer-register input, a {
+  .customer-register input, a {
     margin: 5px auto;
     width: 90%;
   }
 
   .image-holder {
-    /* display: block; */
     justify-content: center;
     height: auto;
   }
@@ -593,6 +597,10 @@ footer section:last-of-type a {
 
   .share-everything-header {
     width: 60%;
+  }
+
+  .shared-payments-mobile {
+    order: 2;
   }
 
   /* Footer */
