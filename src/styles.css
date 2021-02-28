@@ -45,6 +45,7 @@ section {
   border-radius: 4%;
   color: white;
   font-size: 14px;
+  height: 40px;
   line-height: 20px;
   min-width: 80px;
   padding: 10px;
@@ -240,7 +241,7 @@ main section {
   margin: auto 10px;
 }
 
-.become-a-nanny-button {
+.become-a-nanny-sharer-button {
   background-color: #5E20A4;
   border-radius: 4%;
   color: white;
@@ -256,16 +257,24 @@ main section {
   width: 100%;
 }
 
-.become-a-nanny-button {
+.become-a-nanny-sharer-button {
   margin: 30px auto;
 }
 
-.become-a-nanny-button .image-holder {
+.become-a-nanny-sharer-button .image-holder {
   margin: auto;
 }
 
-.become-a-nanny-button p:last-of-type {
+.become-a-nanny-sharer-button p:last-of-type {
   font-size: 12px;
+}
+
+.become-a-nanny-sharer-button section {
+  padding: 0;
+}
+
+.become-a-nanny-sharer-button p {
+  margin: 0;
 }
 
 .calendar-icon {
@@ -409,7 +418,6 @@ footer section:last-of-type a {
     text-align: center;
     grid-template-columns: 375px;
     grid-auto-rows: minmax(400px, auto);
-    /* grid-gap: 20px; */
   }
 
   body, header, main, footer {
@@ -428,10 +436,6 @@ footer section:last-of-type a {
     display: grid;
     grid-template-rows: 30% 60%;
     height: 450px;
-  }
-
-  .action-button {
-    height: 40px;
   }
 
   .hero-content {
@@ -557,8 +561,17 @@ footer section:last-of-type a {
     width: auto;
   }
 
-  .become-a-nanny-button {
-    height: 100px;
+  .become-a-nanny-sharer-button .calendar-icon {
+    height: 30px;
+  }
+
+  .become-a-nanny-sharer-button .image-holder {
+    margin: auto;
+    width: 20%;
+  }
+
+  .become-a-nanny-sharer-button section {
+    width: 80%;
   }
 
   .column-content-container article {
@@ -589,10 +602,6 @@ footer section:last-of-type a {
   .image-holder {
     justify-content: center;
     height: auto;
-  }
-
-  .image-holder img {
-    height: 56px;
   }
 
   .looking-for-a-share {
