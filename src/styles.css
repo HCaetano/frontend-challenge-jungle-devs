@@ -254,11 +254,14 @@ main section {
 }
 
 .become-a-nanny-announcement {
+  padding: 40px 0 0 0;
   width: 100%;
 }
 
-.become-a-nanny-sharer-button {
-  margin: 30px auto;
+.become-a-nanny-announcement h2, 
+.become-a-nanny-announcement p {
+  text-align: center;
+  width: 60%;
 }
 
 .become-a-nanny-sharer-button .image-holder {
@@ -282,8 +285,13 @@ main section {
 }
 
 .column-content-container {
-  flex-flow: column;
   align-items: center;
+  flex-flow: column;
+  padding: 0;
+}
+
+.column-content-container article {
+  margin: 0;
 }
 
 .daily-diary-image {
@@ -373,7 +381,6 @@ footer section:last-of-type a {
 }
 
 .copyright {
-  border-top: 2px solid #DFDFDF;
   color: gray;
   font-size: 12px;
   font-weight: 400;
@@ -401,6 +408,10 @@ footer section:last-of-type a {
   height: fit-content;
   margin: auto;
   width: 50%;
+}
+
+footer .social-media-icons {
+  justify-content: start;
 }
 
 .social-media-logo {
@@ -561,6 +572,10 @@ footer section:last-of-type a {
     width: auto;
   }
 
+  .become-a-nanny-announcement {
+    padding: 20px 0 0 0;
+  }
+
   .become-a-nanny-sharer-button .calendar-icon {
     height: 30px;
   }
@@ -641,6 +656,12 @@ footer section:last-of-type a {
     height: 50px;
     margin: 10px;
     width: auto;
+  }
+
+  .copyright {
+    border-top: 2px solid #DFDFDF;
+    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .footer-content {
