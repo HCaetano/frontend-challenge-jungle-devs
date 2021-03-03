@@ -6,13 +6,21 @@ This repository holds the code related to Jungle Devs' frontend challenge to joi
 
 # Table of contents
 
+- [Goals](#goals)
 - [Challenges](#challenges)
   - [Inconsistent styles](#inconsistent-styles)
   - [Very long style sheet](#very-long-style-sheet)
 - [Lessons learned](#lessons-learned)
   - [Think globally before you start](#think-globally-before-you-start)
   - [Markup reusability](#markup-reusability)
-- [Goals](#goals)
+
+# Goals
+Before starting out the project I made a roadmap with everything I wanted to accomplish and also something I wished to do, if I concluded the project with enough time to work on features that weren't part of the challenge. Fortunately, I managed to deliver everything I set out to do: three screen sizes (desktop/larger, intermediate/tablets, mobile) and, of course, respect the deadline. I really wish I could have spent more time with accessibility, but the mobile screen size took much longer than I anticipated it would. 
+
+- [x] Desktop resolution
+- [x] Intermediate and mobile screen sizes 
+- [ ] Accessibility
+- [x] Deliver on time
 
 # Challenges
 ## CSS grid system
@@ -30,14 +38,3 @@ This challange made me appreciate even more the work of the designer, who has to
 
 ## Markup reusability
 Having come up with a better way to plan/organize the HTML and the CSS, surely the code will be more readable and shorter, having multiple smaller pieces that I can reuse as needed. 
-		
-# Goals
-Before starting out the project I made a roadmap with everything I wanted to accomplish and also something I wished to do, if I concluded the project with enough time to venture in this path. Fortunately, I managed to deliver everything I set out to do: three screen sizes (desktop/larger, intermediate/tablets, mobile) and, of course, respect the deadline. I really wish I could have spent more time with accessibility, but the mobile screen size took much longer than I anticipated it would. 
-
-- [x] Desktop resolution
-- [x] Intermediate and mobile screen sizes 
-- [ ] Accessibility
-- [x] Deliver on time		
-		
-		
-		
