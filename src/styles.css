@@ -433,10 +433,6 @@ footer .social-media-icons {
 /* Responsiveness */
 @media only screen and (max-width: 576px) {
   /* General */
-  .mobile-hidden {
-    display: none;
-  }
-
   body {
     text-align: center;
     grid-auto-rows: minmax(400px, auto);
@@ -458,6 +454,14 @@ footer .social-media-icons {
     display: grid;
     grid-template-rows: 30% 60%;
     height: 450px;
+  }
+
+  .action-button {
+    font-size: 12px;
+  }
+
+  .mobile-hidden {
+    display: none;
   }
 
   .hero-content {
